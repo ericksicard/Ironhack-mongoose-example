@@ -14,7 +14,6 @@ mongoose
 const Cat = mongoose.model('Cat', { name: String });
 
 
-
 //saving kitty to the database
 function addNewCat( catName ) {    
     // New instance of Cat
